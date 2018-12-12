@@ -23,7 +23,7 @@ export class ProductsListComponent implements OnInit {
   ngOnInit() {
     this._service.getAllProducts().subscribe(
     resultat => this.products = resultat,
-    error => console.log(` ATTENTION: Il y a eu l'erreur lors de l'appel REST` )
+    error => console.log(` ATTENTION: Il y a eu une erreur lors de l'appel REST` )
     );
   }
   toggleImage(): void {
