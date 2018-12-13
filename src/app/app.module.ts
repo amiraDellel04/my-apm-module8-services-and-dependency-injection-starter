@@ -15,6 +15,7 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { NotfoundComponent } from './components/notfound/notfound.component';
 import { WelcomeComponent } from './components/welcome/welcome.component';
+import { ProductsDetailComponent } from './Components/products-detail/products-detail.component';
 
 const routes: Route[] = [
 
@@ -36,7 +37,8 @@ const routes: Route[] = [
     NavbarComponent,
     FooterComponent,
     NotfoundComponent,
-    WelcomeComponent
+    WelcomeComponent,
+    ProductsDetailComponent
   ],
   imports: [
     BrowserModule,
