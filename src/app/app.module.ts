@@ -15,11 +15,8 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { NotfoundComponent } from './components/notfound/notfound.component';
 import { WelcomeComponent } from './components/welcome/welcome.component';
-<<<<<<< HEAD
 import { ProductsDetailComponent } from './Components/products-detail/products-detail.component';
-=======
-import { ProductsDetailComponent } from './components/products-detail/products-detail.component';
->>>>>>> feature/navigation
+
 
 const routes: Route[] = [
 
